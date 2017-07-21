@@ -1,0 +1,1091 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.collections.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+
+<AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="553.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/8.0.51" xmlns:fx="http://javafx.com/fxml/1" fx:controller="registrationForm.RegistrationController">
+   <children>
+      <GridPane layoutX="131.0" layoutY="118.0" prefHeight="400.0" prefWidth="640.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints maxHeight="56.0" minHeight="10.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="49.0" minHeight="10.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <TabPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: ;" tabClosingPolicy="UNAVAILABLE" GridPane.rowIndex="2">
+              <tabs>
+                <Tab text="Personal Information">
+                  <content>
+                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                           <children>
+                              <ScrollPane fitToWidth="true" layoutX="148.0" layoutY="14.0" prefHeight="262.0" prefWidth="647.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                 <content>
+                                    <GridPane prefHeight="804.0" prefWidth="651.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+                                      <columnConstraints>
+                                        <ColumnConstraints percentWidth="30" />
+                                        <ColumnConstraints percentWidth="70" />
+                                      </columnConstraints>
+                                      <rowConstraints>
+                                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                          <RowConstraints minHeight="10.0" prefHeight="60.0" vgrow="SOMETIMES" />
+                                          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                      </rowConstraints>
+                                       <children>
+                                          <TextField fx:id="enrollmentNumber" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                                          <TextField fx:id="email" GridPane.columnIndex="1" />
+                                          <Label text="Email*" />
+                                          <Label text="Name*" GridPane.rowIndex="1" />
+                                          <Label text="Enrollment Number*" GridPane.rowIndex="2" />
+                                          <Label text="Address of Correspondence*" GridPane.rowIndex="3" />
+                                          <Label text="Mobile*" GridPane.rowIndex="4" />
+                                          <Label text="PhD Stream*" GridPane.rowIndex="5" />
+                                          <Label text="PhD Area Preference 1*" GridPane.rowIndex="6" />
+                                          <Label text="PhD Area Preference 2*" GridPane.rowIndex="7" />
+                                          <Label text="PhD Area Preference 3*" GridPane.rowIndex="8" />
+                                          <Label text="Gender*" GridPane.rowIndex="9" />
+                                          <Label text="Category*" GridPane.rowIndex="10" />
+                                          <Label text="Date Of Birth*" GridPane.rowIndex="12" />
+                                          <Label prefHeight="109.0" prefWidth="189.0" text="Children/War Widows of Defence Personnel killed/Disabled in Action*" wrapText="true" GridPane.rowIndex="13" />
+                                          <Label text="Father's Name*" GridPane.rowIndex="14" />
+                                          <Label text="Nationality*" GridPane.rowIndex="15" />
+                                          <Label text="Permanent Address*" GridPane.rowIndex="16" />
+                                          <Label text="Pin Code*" GridPane.rowIndex="17" />
+                                          <TextField fx:id="name" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                                          <TextArea fx:id="addressOfCorrespondence" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                                          <TextField fx:id="mobileNumberl" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                                          <GridPane GridPane.columnIndex="1" GridPane.rowIndex="5">
+                                            <columnConstraints>
+                                                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                            </columnConstraints>
+                                            <rowConstraints>
+                                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                            </rowConstraints>
+                                             <children>
+                                                <RadioButton mnemonicParsing="false" text="Computer Science">
+                                                   <toggleGroup>
+                                                      <ToggleGroup fx:id="phsStream" />
+                                                   </toggleGroup>
+                                                </RadioButton>
+                                                <RadioButton mnemonicParsing="false" text="Electronics and Communication" toggleGroup="$phsStream" GridPane.columnIndex="1" />
+                                                <RadioButton mnemonicParsing="false" text="Computational Biology" toggleGroup="$phsStream" GridPane.columnIndex="2" />
+                                             </children>
+                                          </GridPane>
+                                          <GridPane GridPane.columnIndex="1" GridPane.rowIndex="9">
+                                            <columnConstraints>
+                                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                            </columnConstraints>
+                                            <rowConstraints>
+                                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                            </rowConstraints>
+                                             <children>
+                                                <RadioButton mnemonicParsing="false" text="Male">
+                                                   <toggleGroup>
+                                                      <ToggleGroup fx:id="gender" />
+                                                   </toggleGroup>
+                                                </RadioButton>
+                                                <RadioButton mnemonicParsing="false" text="Female" toggleGroup="$gender" GridPane.columnIndex="1" />
+                                             </children>
+                                          </GridPane>
+                                          <GridPane GridPane.columnIndex="1" GridPane.rowIndex="10">
+                                            <columnConstraints>
+                                                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                            </columnConstraints>
+                                            <rowConstraints>
+                                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                            </rowConstraints>
+                                             <children>
+                                                <RadioButton mnemonicParsing="false" text="General">
+                                                   <toggleGroup>
+                                                      <ToggleGroup fx:id="category" />
+                                                   </toggleGroup>
+                                                </RadioButton>
+                                                <RadioButton mnemonicParsing="false" text="SC" toggleGroup="$category" GridPane.columnIndex="1" />
+                                                <RadioButton mnemonicParsing="false" text="ST" toggleGroup="$category" GridPane.columnIndex="2" />
+                                                <RadioButton mnemonicParsing="false" text="OBC" toggleGroup="$category" GridPane.columnIndex="3" />
+                                             </children>
+                                          </GridPane>
+                                          <Label text="Physically Disabled*" GridPane.rowIndex="11" />
+                                          <GridPane GridPane.columnIndex="1" GridPane.rowIndex="11">
+                                            <columnConstraints>
+                                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                            </columnConstraints>
+                                            <rowConstraints>
+                                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                            </rowConstraints>
+                                             <children>
+                                                <RadioButton mnemonicParsing="false" text="Yes">
+                                                   <toggleGroup>
+                                                      <ToggleGroup fx:id="physicallyDisabled" />
+                                                   </toggleGroup>
+                                                </RadioButton>
+                                                <RadioButton mnemonicParsing="false" text="No" toggleGroup="$physicallyDisabled" GridPane.columnIndex="1" />
+                                             </children>
+                                          </GridPane>
+                                          <DatePicker fx:id="dataoOfBirth" GridPane.columnIndex="1" GridPane.rowIndex="12" />
+                                          <GridPane layoutX="209.0" layoutY="512.0" GridPane.columnIndex="1" GridPane.rowIndex="13">
+                                             <columnConstraints>
+                                                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                             </columnConstraints>
+                                             <rowConstraints>
+                                                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                             </rowConstraints>
+                                             <children>
+                                                <RadioButton mnemonicParsing="false" text="Yes">
+                                                   <toggleGroup>
+                                                      <ToggleGroup fx:id="warCategory" />
+                                                   </toggleGroup>
+                                                </RadioButton>
+                                                <RadioButton mnemonicParsing="false" text="No" toggleGroup="$warCategory" GridPane.columnIndex="1" />
+                                             </children>
+                                          </GridPane>
+                                          <TextField fx:id="fatherName" GridPane.columnIndex="1" GridPane.rowIndex="14" />
+                                          <TextArea fx:id="permanentAdress" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="16" />
+                                          <TextField fx:id="pincode" GridPane.columnIndex="1" GridPane.rowIndex="17" />
+                                          
+                                          <ComboBox fx:id="phdPref1" prefWidth="150.0" GridPane.columnIndex="1" GridPane.rowIndex="6">
+                                          	 <items>
+													        <FXCollections fx:factory="observableArrayList">
+													                <String fx:value="Artificial Intelligence and Robotics - CSE" />
+													                <String fx:value="Biophysics - CB" />
+													                <String fx:value="Compilers - CSE" />
+													                <String fx:value="Computer Architecture and Systems Design - ECE/" />
+													                <String fx:value="Computer Architecture and Systems Design - CSE" />
+													                <String fx:value="Computer Graphics - CSE" />
+													                <String fx:value="Computer Vision - CSE" />
+													                <String fx:value="Controls and Robotics - ECE" />
+													                <String fx:value="Digital and Analog VLSI Systems Design - ECE" />
+													                <String fx:value="Electromagnetics - ECE" />
+													                <String fx:value="Embedded and VLSI systems design - ECE" />
+													                <String fx:value="Embedded Systems - ECE" />
+													                <String fx:value="Fiber-Wireless Architectures - ECE" />
+													                <String fx:value="Image Analysis and Biometrics - CSE" />
+													                <String fx:value="Information Management and Data Engineering - CSE" />
+													                <String fx:value="Machine Learning - CSE" />
+													                <String fx:value="Machine Learning - ECE" />
+													                <String fx:value="Massively Parallel Systems - CSE" />
+													                <String fx:value="Mobile Computing and Networking Applications - CSE" />
+													                <String fx:value="OFDM based Optical Access Networks - ECE" />
+													                <String fx:value="Optical Wireless Communication Systems - ECE" />
+													                <String fx:value="Program Analysis - CSE" />
+													                <String fx:value="RF and mixed signal electronics - ECE" />
+													                <String fx:value="Security and Privacy - CSE" />
+													                <String fx:value="Signal and Image Processing - ECE" />
+													                <String fx:value="Signal and Image Processing - CSE" />
+													                <String fx:value="Software Engineering - CSE" />
+													                <String fx:value="Structural Biology - CB" />
+													                <String fx:value="Systems Biology - CB" />
+													                <String fx:value="Theoretical Computer Science - CSE" />
+													                <String fx:value="Wireless Communication - ECE" />
+													                <String fx:value="Wireless Networks - ECE" />
+													                <String fx:value="Wireless Networks - CSE" />
+													        </FXCollections>
+													</items>
+                                          </ComboBox>
+                                          <ComboBox fx:id="phdPref2" prefWidth="150.0" GridPane.columnIndex="1" GridPane.rowIndex="7">
+                                             <items>
+                                                <FXCollections fx:factory="observableArrayList">
+                                                   <String fx:value="Artificial Intelligence and Robotics - CSE" />
+                                                   <String fx:value="Biophysics - CB" />
+                                                   <String fx:value="Compilers - CSE" />
+                                                   <String fx:value="Computer Architecture and Systems Design - ECE/" />
+                                                   <String fx:value="Computer Architecture and Systems Design - CSE" />
+                                                   <String fx:value="Computer Graphics - CSE" />
+                                                   <String fx:value="Computer Vision - CSE" />
+                                                   <String fx:value="Controls and Robotics - ECE" />
+                                                   <String fx:value="Digital and Analog VLSI Systems Design - ECE" />
+                                                   <String fx:value="Electromagnetics - ECE" />
+                                                   <String fx:value="Embedded and VLSI systems design - ECE" />
+                                                   <String fx:value="Embedded Systems - ECE" />
+                                                   <String fx:value="Fiber-Wireless Architectures - ECE" />
+                                                   <String fx:value="Image Analysis and Biometrics - CSE" />
+                                                   <String fx:value="Information Management and Data Engineering - CSE" />
+                                                   <String fx:value="Machine Learning - CSE" />
+                                                   <String fx:value="Machine Learning - ECE" />
+                                                   <String fx:value="Massively Parallel Systems - CSE" />
+                                                   <String fx:value="Mobile Computing and Networking Applications - CSE" />
+                                                   <String fx:value="OFDM based Optical Access Networks - ECE" />
+                                                   <String fx:value="Optical Wireless Communication Systems - ECE" />
+                                                   <String fx:value="Program Analysis - CSE" />
+                                                   <String fx:value="RF and mixed signal electronics - ECE" />
+                                                   <String fx:value="Security and Privacy - CSE" />
+                                                   <String fx:value="Signal and Image Processing - ECE" />
+                                                   <String fx:value="Signal and Image Processing - CSE" />
+                                                   <String fx:value="Software Engineering - CSE" />
+                                                   <String fx:value="Structural Biology - CB" />
+                                                   <String fx:value="Systems Biology - CB" />
+                                                   <String fx:value="Theoretical Computer Science - CSE" />
+                                                   <String fx:value="Wireless Communication - ECE" />
+                                                   <String fx:value="Wireless Networks - ECE" />
+                                                   <String fx:value="Wireless Networks - CSE" />
+                                                </FXCollections>
+                                             </items>
+                                          </ComboBox>
+                                          <ComboBox fx:id="phdPref3" prefWidth="150.0" GridPane.columnIndex="1" GridPane.rowIndex="8">
+                                             <items>
+                                                <FXCollections fx:factory="observableArrayList">
+                                                   <String fx:value="Artificial Intelligence and Robotics - CSE" />
+                                                   <String fx:value="Biophysics - CB" />
+                                                   <String fx:value="Compilers - CSE" />
+                                                   <String fx:value="Computer Architecture and Systems Design - ECE/" />
+                                                   <String fx:value="Computer Architecture and Systems Design - CSE" />
+                                                   <String fx:value="Computer Graphics - CSE" />
+                                                   <String fx:value="Computer Vision - CSE" />
+                                                   <String fx:value="Controls and Robotics - ECE" />
+                                                   <String fx:value="Digital and Analog VLSI Systems Design - ECE" />
+                                                   <String fx:value="Electromagnetics - ECE" />
+                                                   <String fx:value="Embedded and VLSI systems design - ECE" />
+                                                   <String fx:value="Embedded Systems - ECE" />
+                                                   <String fx:value="Fiber-Wireless Architectures - ECE" />
+                                                   <String fx:value="Image Analysis and Biometrics - CSE" />
+                                                   <String fx:value="Information Management and Data Engineering - CSE" />
+                                                   <String fx:value="Machine Learning - CSE" />
+                                                   <String fx:value="Machine Learning - ECE" />
+                                                   <String fx:value="Massively Parallel Systems - CSE" />
+                                                   <String fx:value="Mobile Computing and Networking Applications - CSE" />
+                                                   <String fx:value="OFDM based Optical Access Networks - ECE" />
+                                                   <String fx:value="Optical Wireless Communication Systems - ECE" />
+                                                   <String fx:value="Program Analysis - CSE" />
+                                                   <String fx:value="RF and mixed signal electronics - ECE" />
+                                                   <String fx:value="Security and Privacy - CSE" />
+                                                   <String fx:value="Signal and Image Processing - ECE" />
+                                                   <String fx:value="Signal and Image Processing - CSE" />
+                                                   <String fx:value="Software Engineering - CSE" />
+                                                   <String fx:value="Structural Biology - CB" />
+                                                   <String fx:value="Systems Biology - CB" />
+                                                   <String fx:value="Theoretical Computer Science - CSE" />
+                                                   <String fx:value="Wireless Communication - ECE" />
+                                                   <String fx:value="Wireless Networks - ECE" />
+                                                   <String fx:value="Wireless Networks - CSE" />
+                                                </FXCollections>
+                                             </items>
+                                          </ComboBox>
+                                          <ComboBox fx:id="nationality" prefWidth="150.0" GridPane.columnIndex="1" GridPane.rowIndex="15">
+                                                    <items>
+                                                        <FXCollections fx:factory="observableArrayList">
+                                                                <String fx:value="Afghan" />
+                                                                <String fx:value="Albanian" />
+                                                                <String fx:value="Algerian" />
+                                                                <String fx:value="American" />
+                                                                <String fx:value="Andorran" />
+                                                                <String fx:value="Angolan" />
+                                                                <String fx:value="Antiguans" />
+                                                                <String fx:value="Argentinean" />
+                                                                <String fx:value="Armenian" />
+                                                                <String fx:value="Australian" />
+                                                                <String fx:value="Austrian" />
+                                                                <String fx:value="Azerbaijani" />
+                                                                <String fx:value="Bahamian" />
+                                                                <String fx:value="Bahraini" />
+                                                                <String fx:value="Bangladeshi" />
+                                                                <String fx:value="Barbadian" />
+                                                                <String fx:value="Barbudans" />
+                                                                <String fx:value="Batswana" />
+                                                                <String fx:value="Belarusian" />
+                                                                <String fx:value="Belgian" />
+                                                                <String fx:value="Belizean" />
+                                                                <String fx:value="Beninese" />
+                                                                <String fx:value="Bhutanese" />
+                                                                <String fx:value="Bolivian" />
+                                                                <String fx:value="Bosnian" />
+                                                                <String fx:value="Brazilian" />
+                                                                <String fx:value="British" />
+                                                                <String fx:value="Bruneian" />
+                                                                <String fx:value="Bulgarian" />
+                                                                <String fx:value="Burkinabe" />
+                                                                <String fx:value="Burmese" />
+                                                                <String fx:value="Burundian" />
+                                                                <String fx:value="Cambodian" />
+                                                                <String fx:value="Cameroonian" />
+                                                                <String fx:value="Canadian" />
+                                                                <String fx:value="Cape Verdean" />
+                                                                <String fx:value="Central African" />
+                                                                <String fx:value="Chadian" />
+                                                                <String fx:value="Chilean" />
+                                                                <String fx:value="Chinese" />
+                                                                <String fx:value="Colombian" />
+                                                                <String fx:value="Comoran" />
+                                                                <String fx:value="Congolese" />
+                                                                <String fx:value="Costa Rican" />
+                                                                <String fx:value="Croatian" />
+                                                                <String fx:value="Cuban" />
+                                                                <String fx:value="Cypriot" />
+                                                                <String fx:value="Czech" />
+                                                                <String fx:value="Danish" />
+                                                                <String fx:value="Djibouti" />
+                                                                <String fx:value="Dominican" />
+                                                                <String fx:value="Dutch" />
+                                                                <String fx:value="East Timorese" />
+                                                                <String fx:value="Ecuadorean" />
+                                                                <String fx:value="Egyptian" />
+                                                                <String fx:value="Emirian" />
+                                                                <String fx:value="Equatorial Guinean" />
+                                                                <String fx:value="Eritrean" />
+                                                                <String fx:value="Estonian" />
+                                                                <String fx:value="Ethiopian" />
+                                                                <String fx:value="Fijian" />
+                                                                <String fx:value="Filipino" />
+                                                                <String fx:value="Finnish" />
+                                                                <String fx:value="French" />
+                                                                <String fx:value="Gabonese" />
+                                                                <String fx:value="Gambian" />
+                                                                <String fx:value="Georgian" />
+                                                                <String fx:value="German" />
+                                                                <String fx:value="Ghanaian" />
+                                                                <String fx:value="Greek" />
+                                                                <String fx:value="Grenadian" />
+                                                                <String fx:value="Guatemalan" />
+                                                                <String fx:value="guinea-bissauan" />
+                                                                <String fx:value="Guinean" />
+                                                                <String fx:value="Guyanese" />
+                                                                <String fx:value="Haitian" />
+                                                                <String fx:value="Herzegovinian" />
+                                                                <String fx:value="Honduran" />
+                                                                <String fx:value="Hungarian" />
+                                                                <String fx:value="Icelander" />
+                                                                <String fx:value="Indian" />
+                                                                <String fx:value="Indonesian" />
+                                                                <String fx:value="Iranian" />
+                                                                <String fx:value="Iraqi" />
+                                                                <String fx:value="Irish" />
+                                                                <String fx:value="Israeli" />
+                                                                <String fx:value="Italian" />
+                                                                <String fx:value="Ivorian" />
+                                                                <String fx:value="Jamaican" />
+                                                                <String fx:value="Japanese" />
+                                                                <String fx:value="Jordanian" />
+                                                                <String fx:value="Kazakhstani" />
+                                                                <String fx:value="Kenyan" />
+                                                                <String fx:value="Kittian and Nevisian" />
+                                                                <String fx:value="Kuwaiti" />
+                                                                <String fx:value="Kyrgyz" />
+                                                                <String fx:value="Laotian" />
+                                                                <String fx:value="Latvian" />
+                                                                <String fx:value="Lebanese" />
+                                                                <String fx:value="Liberian" />
+                                                                <String fx:value="Libyan" />
+                                                                <String fx:value="Liechtensteiner" />
+                                                                <String fx:value="Lithuanian" />
+                                                                <String fx:value="Luxembourger" />
+                                                                <String fx:value="Macedonian" />
+                                                                <String fx:value="Malagasy" />
+                                                                <String fx:value="Malawian" />
+                                                                <String fx:value="Malaysian" />
+                                                                <String fx:value="Maldivan" />
+                                                                <String fx:value="Malian" />
+                                                                <String fx:value="Maltese" />
+                                                                <String fx:value="Marshallese" />
+                                                                <String fx:value="Mauritanian" />
+                                                                <String fx:value="Mauritian" />
+                                                                <String fx:value="Mexican" />
+                                                                <String fx:value="Micronesian" />
+                                                                <String fx:value="Moldovan" />
+                                                                <String fx:value="Monacan" />
+                                                                <String fx:value="Mongolian" />
+                                                                <String fx:value="Moroccan" />
+                                                                <String fx:value="Mosotho" />
+                                                                <String fx:value="Motswana" />
+                                                                <String fx:value="Mozambican" />
+                                                                <String fx:value="Namibian" />
+                                                                <String fx:value="Nauruan" />
+                                                                <String fx:value="Nepalese" />
+                                                                <String fx:value="New Zealander" />
+                                                                <String fx:value="ni-vanuatu" />
+                                                                <String fx:value="Nicaraguan" />
+                                                                <String fx:value="Nigerien" />
+                                                                <String fx:value="North Korean" />
+                                                                <String fx:value="Northern Irish" />
+                                                                <String fx:value="Norwegian" />
+                                                                <String fx:value="Omani" />
+                                                                <String fx:value="Pakistani" />
+                                                                <String fx:value="Palauan" />
+                                                                <String fx:value="Panamanian" />
+                                                                <String fx:value="Papua New Guinean" />
+                                                                <String fx:value="Paraguayan" />
+                                                                <String fx:value="Peruvian" />
+                                                                <String fx:value="Polish" />
+                                                                <String fx:value="Portuguese" />
+                                                                <String fx:value="Qatari" />
+                                                                <String fx:value="Romanian" />
+                                                                <String fx:value="Russian" />
+                                                                <String fx:value="Rwandan" />
+                                                                <String fx:value="Saint Lucian" />
+                                                                <String fx:value="Salvadoran" />
+                                                                <String fx:value="Samoan" />
+                                                                <String fx:value="San Marinese" />
+                                                                <String fx:value="Sao Tomean" />
+                                                                <String fx:value="Saudi" />
+                                                                <String fx:value="Scottish" />
+                                                                <String fx:value="Senegalese" />
+                                                                <String fx:value="Serbian" />
+                                                                <String fx:value="Seychellois" />
+                                                                <String fx:value="Sierra Leonean" />
+                                                                <String fx:value="Singaporean" />
+                                                                <String fx:value="Slovakian" />
+                                                                <String fx:value="Slovenian" />
+                                                                <String fx:value="Solomon Islander" />
+                                                                <String fx:value="Somali" />
+                                                                <String fx:value="South African" />
+                                                                <String fx:value="South Korean" />
+                                                                <String fx:value="Spanish" />
+                                                                <String fx:value="Sri Lankan" />
+                                                                <String fx:value="Sudanese" />
+                                                                <String fx:value="Surinamer" />
+                                                                <String fx:value="Swazi" />
+                                                                <String fx:value="Swedish" />
+                                                                <String fx:value="Swiss" />
+                                                                <String fx:value="Syrian" />
+                                                                <String fx:value="Taiwanese" />
+                                                                <String fx:value="Tajik" />
+                                                                <String fx:value="Tanzanian" />
+                                                                <String fx:value="Thai" />
+                                                                <String fx:value="Togolese" />
+                                                                <String fx:value="Tongan" />
+                                                                <String fx:value="Trinidadian or Tobagonian" />
+                                                                <String fx:value="Tunisian" />
+                                                                <String fx:value="Turkish" />
+                                                                <String fx:value="Tuvaluan" />
+                                                                <String fx:value="Ugandan" />
+                                                                <String fx:value="Ukrainian" />
+                                                                <String fx:value="Uruguayan" />
+                                                                <String fx:value="Uzbekistani" />
+                                                                <String fx:value="Venezuelan" />
+                                                                <String fx:value="Vietnamese" />
+                                                                <String fx:value="Welsh" />
+                                                                <String fx:value="Yemenite" />
+                                                                <String fx:value="Zambian" />
+                                                                <String fx:value="Zimbabwean" />
+                                                        </FXCollections>
+                                                </items>
+                                          </ComboBox>
+                                       </children>
+                                       <padding>
+                                          <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                                       </padding>
+                                    </GridPane>
+                                 </content>
+                              </ScrollPane>
+                           </children>
+                        </AnchorPane>
+                  </content>
+                </Tab>
+                <Tab text="Education Information">
+                  <content>
+                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                           <children>
+                              <ScrollPane fitToWidth="true" prefHeight="817.0" prefWidth="653.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                 <content>
+                                    <AnchorPane prefHeight="527.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+                                       <children>
+                                          <Accordion prefHeight="259.0" prefWidth="651.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                            <panes>
+                                              <TitledPane animated="false" text="Schooling Information">
+                                                <content>
+                                                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                                         <children>
+                                                            <GridPane prefHeight="448.0" prefWidth="649.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                               <columnConstraints>
+                                                                  <ColumnConstraints percentWidth="30" />
+                                                                  <ColumnConstraints percentWidth="70" />
+                                                               </columnConstraints>
+                                                               <rowConstraints>
+                                                                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                               </rowConstraints>
+                                                               <children>
+                                                                  <TextField fx:id="classXPassingYear" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                                                                  <TextField fx:id="classXBoardName" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                                                                  <Label text="Xth Board*" GridPane.rowIndex="1" />
+                                                                  <Label text="Xth Marks (%)*" GridPane.rowIndex="2" />
+                                                                  <Label text="Year of Passing Xth*" GridPane.rowIndex="3" />
+                                                                  <Label text="XIIth Board*" GridPane.rowIndex="4" />
+                                                                  <Label text="XIIth Marks (%)*" GridPane.rowIndex="5" />
+                                                                  <TextField fx:id="classXBoardMarks" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                                                                  <TextField fx:id="classXIIBoardMarks" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                                                                  <Label text="Year of Passing XIIth*" GridPane.rowIndex="6" />
+                                                                  <TextField fx:id="classXIIBoardName" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                                                                  <TextField fx:id="classXIIPassingYear" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+                                                               </children>
+                                                               <padding>
+                                                                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                                                               </padding>
+                                                            </GridPane>
+                                                         </children>
+                                                      </AnchorPane>
+                                                </content>
+                                              </TitledPane>
+                                              <TitledPane animated="false" text="Graduation Information">
+                                                <content>
+                                                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                                         <children>
+                                                            <GridPane prefHeight="474.0" prefWidth="649.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                               <columnConstraints>
+                                                                  <ColumnConstraints percentWidth="30" />
+                                                                  <ColumnConstraints percentWidth="70" />
+                                                               </columnConstraints>
+                                                               <rowConstraints>
+                                                                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                               </rowConstraints>
+                                                               <children>
+                                                                  <TextField fx:id="collegeName" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                                                                  <TextField fx:id="graguationDegree" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                                                                  <Label text="Degree*" GridPane.rowIndex="1" />
+                                                                  <Label text="Department/Discipline*" GridPane.rowIndex="2" />
+                                                                  <Label text="Name of College*" GridPane.rowIndex="3" />
+                                                                  <Label text="Name of University*" GridPane.rowIndex="4" />
+                                                                  <Label text="City*" GridPane.rowIndex="5" />
+                                                                  <TextField fx:id="graduationDepartment" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                                                                  <TextField fx:id="graduationCity" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                                                                  <Label text="State*" GridPane.rowIndex="6" />
+                                                                  <Label text="Year of Graduation*" GridPane.rowIndex="7" />
+                                                                  <TextField fx:id="universityName" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                                                                  <ComboBox fx:id="graduationState" prefWidth="150.0" GridPane.columnIndex="1" GridPane.rowIndex="6">
+                                                                        <items>
+                                                                            <FXCollections fx:factory="observableArrayList">
+                                                                                    <String fx:value="Andaman and Nicobar Islands" />
+                                                                                     <String fx:value="Andhra Pradesh" />
+                                                                                     <String fx:value="Arunachal Pradesh" />
+                                                                                     <String fx:value="Assam" />
+                                                                                     <String fx:value="Bihar" />
+                                                                                     <String fx:value="Chandigarh" />
+                                                                                     <String fx:value="Chhatisgarh" />
+                                                                                     <String fx:value="Dadra and Nagar Haveli" />
+                                                                                     <String fx:value="Daman and Diu" />
+                                                                                     <String fx:value="Delhi" />
+                                                                                     <String fx:value="Goa" />
+                                                                                     <String fx:value="Gujarat" />
+                                                                                     <String fx:value="Haryana" />
+                                                                                     <String fx:value="Himachal Pradesh" />
+                                                                                     <String fx:value="Jammu and Kashmir" />
+                                                                                     <String fx:value="Jharkhand" />
+                                                                                     <String fx:value="Karnataka" />
+                                                                                     <String fx:value="Kerala" />
+                                                                                     <String fx:value="Lakshadweep" />
+                                                                                     <String fx:value="Madhya Pradesh" />
+                                                                                     <String fx:value="Maharashtra" />
+                                                                                     <String fx:value="Manipur" />
+                                                                                     <String fx:value="Meghalaya" />
+                                                                                     <String fx:value="Mizoram" />
+                                                                                     <String fx:value="Nagaland" />
+                                                                                     <String fx:value="Orissa" />
+                                                                                     <String fx:value="Pondicherry" />
+                                                                                     <String fx:value="Punjab" />
+                                                                                     <String fx:value="Rajasthan" />
+                                                                                     <String fx:value="Sikkim" />
+                                                                                     <String fx:value="Tamil Nadu" />
+                                                                                     <String fx:value="Tripura" />
+                                                                                     <String fx:value="Uttaranchal" />
+                                                                                     <String fx:value="Uttar Pradesh" />
+                                                                                     <String fx:value="West Bengal" />
+                                                                                     <String fx:value="Other" />
+
+                                                                            </FXCollections>
+                                                                    </items>
+                                                                  </ComboBox>
+                                                                  <ComboBox fx:id="graduationYear" prefWidth="150.0" GridPane.columnIndex="1" GridPane.rowIndex="7"> 
+
+                                                                         <items>
+                                                                                <FXCollections fx:factory="observableArrayList">
+                                                                                         <String fx:value="2015" />
+                                                                                         <String fx:value="2014" />
+                                                                                         <String fx:value="2013" />
+                                                                                         <String fx:value="2012" />
+                                                                                         <String fx:value="2011" />
+                                                                                         <String fx:value="2010" />
+                                                                                         <String fx:value="2009" />
+                                                                                         <String fx:value="2008" />
+                                                                                         <String fx:value="2007" />
+                                                                                         <String fx:value="2006" />
+                                                                                         <String fx:value="2005" />
+                                                                                         <String fx:value="2004" />
+                                                                                         <String fx:value="2003" />
+                                                                                         <String fx:value="2002" />
+                                                                                         <String fx:value="2001" />
+                                                                                         <String fx:value="2000" />
+                                                                                         <String fx:value="1999" />
+                                                                                         <String fx:value="1998" />
+                                                                                         <String fx:value="1997" />
+                                                                                         <String fx:value="1996" />
+                                                                                         <String fx:value="1995" />
+                                                                                         <String fx:value="1994" />
+                                                                                         <String fx:value="1993" />
+                                                                                         <String fx:value="1992" />
+                                                                                         <String fx:value="1991" />
+                                                                                         <String fx:value="1990" />
+                                                                                         <String fx:value="1989" />
+                                                                                         <String fx:value="1988" />
+                                                                                         <String fx:value="1987" />
+                                                                                         <String fx:value="1986" />
+                                                                                         <String fx:value="1985" />
+                                                                                         <String fx:value="1984" />
+                                                                                         <String fx:value="1983" />
+                                                                                         <String fx:value="1982" />
+                                                                                         <String fx:value="1981" />
+                                                                                         <String fx:value="1980" />
+                                                                                         <String fx:value="1979" />
+                                                                                         <String fx:value="1978" />
+                                                                                         <String fx:value="1977" />
+                                                                                         <String fx:value="1976" />
+                                                                                         <String fx:value="1975" />
+                                                                                         <String fx:value="1974" />
+                                                                                         <String fx:value="1973" />
+                                                                                         <String fx:value="1972" />
+                                                                                         <String fx:value="1971" />
+                                                                                         <String fx:value="1970" />
+                                                                                         <String fx:value="1969" />
+                                                                                         <String fx:value="1968" />
+                                                                                         <String fx:value="1967" />
+                                                                                         <String fx:value="1966" />
+                                                                                         <String fx:value="1965" />
+                                                                                         <String fx:value="1964" />
+                                                                                         <String fx:value="1963" />
+                                                                                         <String fx:value="1962" />
+                                                                                         <String fx:value="1961" />
+                                                                                         <String fx:value="1960" />
+                                                                                         <String fx:value="1959" />
+                                                                                         <String fx:value="1958" />
+                                                                                         <String fx:value="1957" />
+                                                                                         <String fx:value="1956" />
+                                                                                         <String fx:value="1955" />
+                                                                                         <String fx:value="1954" />
+                                                                                         <String fx:value="1953" />
+                                                                                         <String fx:value="1952" />
+                                                                                         <String fx:value="1951" />
+                                                                                </FXCollections>
+                                                                        </items>
+                                                                  </ComboBox>
+                                                                  <TextField fx:id="graduationMarks" GridPane.columnIndex="1" GridPane.rowIndex="9" />
+                                                                  <GridPane GridPane.columnIndex="1" GridPane.rowIndex="8">
+                                                                    <columnConstraints>
+                                                                      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                                                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                                                      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                                                    </columnConstraints>
+                                                                    <rowConstraints>
+                                                                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                                    </rowConstraints>
+                                                                     <children>
+                                                                        <TextField fx:id="graduationCGPATotal" text="10" GridPane.columnIndex="2" />
+                                                                        <TextField fx:id="graduationCGPA" />
+                                                                        <Label text="out of" GridPane.columnIndex="1" />
+                                                                     </children>
+                                                                  </GridPane>
+                                                                  <RadioButton mnemonicParsing="false" selected="true" text="CGPA" GridPane.rowIndex="8">
+                                                                     <toggleGroup>
+                                                                        <ToggleGroup fx:id="gicm" />
+                                                                     </toggleGroup>
+                                                                  </RadioButton>
+                                                                  <RadioButton mnemonicParsing="false" text="Marks" toggleGroup="$gicm" GridPane.rowIndex="9" />
+                                                               </children>
+                                                               <padding>
+                                                                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                                                               </padding>
+                                                            </GridPane>
+                                                            <Label layoutX="25.0" layoutY="23.0" text="Graduation Information">
+                                                               <font>
+                                                                  <Font size="22.0" />
+                                                               </font>
+                                                            </Label>
+                                                         </children>
+                                                      </AnchorPane>
+                                                </content>
+                                              </TitledPane>
+                                                <TitledPane animated="false" layoutX="10.0" layoutY="36.0" text="ECE PhD Subject Preference">
+                                                   <content>
+                                                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                                         <children>
+                                                            <GridPane fx:id="eceTable" disable="true" prefHeight="474.0" prefWidth="649.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                               <columnConstraints>
+                                                                  <ColumnConstraints percentWidth="30" />
+                                                                  <ColumnConstraints percentWidth="70" />
+                                                               </columnConstraints>
+                                                               <rowConstraints>
+                                                                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                               </rowConstraints>
+                                                               <children>
+                                                                  <TextField fx:id="ecePhdPref3" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                                                                  <TextField fx:id="ecePhdPref1" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                                                                  <Label text="Preference 1*" GridPane.rowIndex="2" />
+                                                                  <Label text="Preference 2*" GridPane.rowIndex="3" />
+                                                                  <Label text="Preference 3*" GridPane.rowIndex="4" />
+                                                                  <Label text="Preference 4" GridPane.rowIndex="5" />
+                                                                  <TextField fx:id="ecePhdPref2" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                                                                  <TextField fx:id="ecePhdPref4" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                                                               </children>
+                                                               <padding>
+                                                                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                                                               </padding>
+                                                            </GridPane>
+                                                            <Label layoutX="23.0" layoutY="62.0" text="ECE PhD Subject Preference">
+                                                               <font>
+                                                                  <Font size="19.0" />
+                                                               </font>
+                                                            </Label>
+                                                            <CheckBox fx:id="isApplyingForECE" layoutX="28.0" layoutY="25.0" mnemonicParsing="false" onAction="#enableDisableStuff" text="Are you applying for ECE PhD?" />
+                                                         </children>
+                                                      </AnchorPane>
+                                                   </content>
+                                                </TitledPane>
+                                                <TitledPane animated="false" layoutX="10.0" layoutY="62.0" text="Post - Graduation Information">
+                                                   <content>
+                                                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                                         <children>
+                                                            <GridPane fx:id="pgTable" disable="true" prefHeight="474.0" prefWidth="649.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                               <columnConstraints>
+                                                                  <ColumnConstraints percentWidth="30" />
+                                                                  <ColumnConstraints percentWidth="70" />
+                                                               </columnConstraints>
+                                                               <rowConstraints>
+                                                                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                               </rowConstraints>
+                                                               <children>
+                                                                  <TextField fx:id="pgcollegeName" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                                                                  <Label text="Name of College" GridPane.rowIndex="2" />
+                                                                  <Label text="City" GridPane.rowIndex="3" />
+                                                                  <Label text="State" GridPane.rowIndex="4" />
+                                                                  <Label text="Department/Discipline" GridPane.rowIndex="5" />
+                                                                  <Label text="Degree" GridPane.rowIndex="6" />
+                                                                  <TextField fx:id="pgGraduationCity" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                                                                  <TextField fx:id="pgGraguationDegree" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+                                                                  <Label text="Thesis Title" GridPane.rowIndex="7" />
+                                                                  <Label text="Year of Post-Graduation*" GridPane.rowIndex="8" />
+                                                                  <Label text="CGPA" GridPane.rowIndex="9" />
+                                                                  <Label text="Marks" GridPane.rowIndex="10" />
+                                                                  <TextField fx:id="pgGraduationDepartment" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                                                                  <TextField fx:id="pgGraduationThesisTitle" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+                                                                  <TextField fx:id="pgGraduationYear" GridPane.columnIndex="1" GridPane.rowIndex="8" />
+                                                                  <TextField fx:id="pgGraduationMarks" GridPane.columnIndex="1" GridPane.rowIndex="10" />
+                                                                  <ComboBox fx:id="pgGraduationState" prefWidth="150.0" GridPane.columnIndex="1" GridPane.rowIndex="4">
+
+                                                                          <items>
+                                                                              <FXCollections fx:factory="observableArrayList">
+                                                                                      <String fx:value="Andaman and Nicobar Islands" />
+                                                                                       <String fx:value="Andhra Pradesh" />
+                                                                                       <String fx:value="Arunachal Pradesh" />
+                                                                                       <String fx:value="Assam" />
+                                                                                       <String fx:value="Bihar" />
+                                                                                       <String fx:value="Chandigarh" />
+                                                                                       <String fx:value="Chhatisgarh" />
+                                                                                       <String fx:value="Dadra and Nagar Haveli" />
+                                                                                       <String fx:value="Daman and Diu" />
+                                                                                       <String fx:value="Delhi" />
+                                                                                       <String fx:value="Goa" />
+                                                                                       <String fx:value="Gujarat" />
+                                                                                       <String fx:value="Haryana" />
+                                                                                       <String fx:value="Himachal Pradesh" />
+                                                                                       <String fx:value="Jammu and Kashmir" />
+                                                                                       <String fx:value="Jharkhand" />
+                                                                                       <String fx:value="Karnataka" />
+                                                                                       <String fx:value="Kerala" />
+                                                                                       <String fx:value="Lakshadweep" />
+                                                                                       <String fx:value="Madhya Pradesh" />
+                                                                                       <String fx:value="Maharashtra" />
+                                                                                       <String fx:value="Manipur" />
+                                                                                       <String fx:value="Meghalaya" />
+                                                                                       <String fx:value="Mizoram" />
+                                                                                       <String fx:value="Nagaland" />
+                                                                                       <String fx:value="Orissa" />
+                                                                                       <String fx:value="Pondicherry" />
+                                                                                       <String fx:value="Punjab" />
+                                                                                       <String fx:value="Rajasthan" />
+                                                                                       <String fx:value="Sikkim" />
+                                                                                       <String fx:value="Tamil Nadu" />
+                                                                                       <String fx:value="Tripura" />
+                                                                                       <String fx:value="Uttaranchal" />
+                                                                                       <String fx:value="Uttar Pradesh" />
+                                                                                       <String fx:value="West Bengal" />
+                                                                                       <String fx:value="Other" />
+
+                                                                              </FXCollections>
+                                                                      </items>
+
+                                                                   </ComboBox>
+                                                                  <GridPane GridPane.columnIndex="1" GridPane.rowIndex="9">
+                                                                    <columnConstraints>
+                                                                      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                                                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                                                      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                                                    </columnConstraints>
+                                                                    <rowConstraints>
+                                                                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                                    </rowConstraints>
+                                                                     <children>
+                                                                        <TextField fx:id="pgGraduationCGPA" />
+                                                                        <TextField fx:id="pgGraduationCGPATotal" text="10" GridPane.columnIndex="2" />
+                                                                        <Label text="out of" GridPane.columnIndex="1" />
+                                                                     </children>
+                                                                  </GridPane>
+                                                               </children>
+                                                               <padding>
+                                                                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                                                               </padding>
+                                                            </GridPane>
+                                                            <Label layoutX="23.0" layoutY="54.0" text="Post - Graduation Information">
+                                                               <font>
+                                                                  <Font size="19.0" />
+                                                               </font>
+                                                            </Label>
+                                                            <CheckBox fx:id="isPG" layoutX="27.0" layoutY="26.0" mnemonicParsing="false" onAction="#enableDisableStuff" text="Have you completed your Post Graduation?" />
+                                                         </children>
+                                                      </AnchorPane>
+                                                   </content>
+                                                </TitledPane>
+                                                <TitledPane animated="false" layoutX="10.0" layoutY="88.0" text="Other Academic Degrees">
+                                                   <content>
+                                                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                                         <children>
+                                                            <GridPane fx:id="otherAcademicTable" disable="true" prefHeight="474.0" prefWidth="649.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                               <columnConstraints>
+                                                                  <ColumnConstraints percentWidth="30" />
+                                                                  <ColumnConstraints percentWidth="70" />
+                                                               </columnConstraints>
+                                                               <rowConstraints>
+                                                                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                               </rowConstraints>
+                                                               <children>
+                                                                  <TextField fx:id="oadYear" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                                                                  <TextField fx:id="oadExamName" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                                                                  <Label text="Exam Name" GridPane.rowIndex="2" />
+                                                                  <Label text="Subject" GridPane.rowIndex="3" />
+                                                                  <Label text="Year*" GridPane.rowIndex="4" />
+                                                                  <Label text="Score" GridPane.rowIndex="5" />
+                                                                  <Label text="Rank" GridPane.rowIndex="6" />
+                                                                  <TextField fx:id="oadSubject" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                                                                  <TextField fx:id="oadRank" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+                                                                  <TextField fx:id="oadScore" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                                                               </children>
+                                                               <padding>
+                                                                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                                                               </padding>
+                                                            </GridPane>
+                                                            <Label layoutX="23.0" layoutY="44.0" text="Other Academic Degrees">
+                                                               <font>
+                                                                  <Font size="19.0" />
+                                                               </font>
+                                                            </Label>
+                                                            <CheckBox fx:id="hasOtherAcademicDegrees" layoutX="28.0" layoutY="15.0" mnemonicParsing="false" onAction="#enableDisableStuff" text="Are you applying for ECE PhD?" />
+                                                         </children>
+                                                      </AnchorPane>
+                                                   </content>
+                                                </TitledPane>
+                                                <TitledPane animated="false" layoutX="10.0" layoutY="114.0" text="Gate">
+                                                   <content>
+                                                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                                         <children>
+                                                            <GridPane fx:id="gateTable" disable="true" prefHeight="474.0" prefWidth="649.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                               <columnConstraints>
+                                                                  <ColumnConstraints percentWidth="30" />
+                                                                  <ColumnConstraints percentWidth="70" />
+                                                               </columnConstraints>
+                                                               <rowConstraints>
+                                                                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                               </rowConstraints>
+                                                               <children>
+                                                                  <TextField fx:id="gateMarks" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                                                                  <TextField fx:id="gateArea" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                                                                  <Label text="Area" GridPane.rowIndex="2" />
+                                                                  <Label text="Year of Graduation*" GridPane.rowIndex="3" />
+                                                                  <Label text="Marks(Out Of 100)" GridPane.rowIndex="4" />
+                                                                  <Label text="Score" GridPane.rowIndex="5" />
+                                                                  <Label text="Rank" GridPane.rowIndex="6" />
+                                                                  <TextField fx:id="gateYear" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                                                                  <TextField fx:id="gateRank" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+                                                                  <TextField fx:id="gateScore" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                                                               </children>
+                                                               <padding>
+                                                                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                                                               </padding>
+                                                            </GridPane>
+                                                            <Label layoutX="23.0" layoutY="44.0" text="Gate">
+                                                               <font>
+                                                                  <Font size="19.0" />
+                                                               </font>
+                                                            </Label>
+                                                            <CheckBox fx:id="takenGate" layoutX="28.0" layoutY="15.0" mnemonicParsing="false" onAction="#enableDisableStuff" text="Taken GATE Exam?" />
+                                                         </children>
+                                                      </AnchorPane>
+                                                   </content>
+                                                </TitledPane>
+                                                <TitledPane animated="false" layoutX="10.0" layoutY="114.0" text="Achievements, CV and Statement of Purpose">
+                                                   <content>
+                                                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                                         <children>
+                                                            <GridPane prefHeight="474.0" prefWidth="649.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                               <columnConstraints>
+                                                                  <ColumnConstraints percentWidth="30" />
+                                                                  <ColumnConstraints percentWidth="70" />
+                                                               </columnConstraints>
+                                                               <rowConstraints>
+                                                                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                               </rowConstraints>
+                                                               <children>
+                                                                  <TextField GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                                                                  <Label text="Achievements" GridPane.rowIndex="1" />
+                                                                  <Label text="Achievements (Other information like ranks, medals etc.)" GridPane.rowIndex="2" />
+                                                                  <Label text="Statement of Purpose*" GridPane.rowIndex="3" />
+                                                                  <Button fx:id="buttonChooseCV" mnemonicParsing="false" onAction="#chooseCV" text="Choose file" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                                                                  <Button fx:id="buttonUploadSOP" mnemonicParsing="false" onAction="#chooseSOP" text="Choose file" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                                                               </children>
+                                                               <padding>
+                                                                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                                                               </padding>
+                                                            </GridPane>
+                                                            <Label layoutX="23.0" layoutY="10.0" text="Achievements, CV and Statement of Purpose">
+                                                               <font>
+                                                                  <Font size="19.0" />
+                                                               </font>
+                                                            </Label>
+                                                         </children>
+                                                      </AnchorPane>
+                                                   </content>
+                                                </TitledPane>
+                                            </panes>
+                                          </Accordion>
+                                       </children>
+                                    </AnchorPane>
+
+                                     
+
+                                             </content>
+                              </ScrollPane>
+                           </children>
+                        </AnchorPane>
+                  </content>
+                </Tab>
+                  <Tab text="Payment Integer">
+                     <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                     </content>
+                  </Tab>
+                  <Tab text="Feedback">
+                     <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                     </content>
+                  </Tab>
+                  <Tab text="Submit">
+                     <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                           <children>
+                              <Button fx:id="hoho" layoutX="54.0" layoutY="61.0" mnemonicParsing="false" onAction="#sibmitButtonClicked" text="Submit" />
+                              <Label layoutX="54.0" layoutY="27.0" text="Please complete and save all the fields before you click the submit button. Once you have submitted you will not be able to edit any field.Submit" />
+                           </children></AnchorPane>
+                     </content>
+                  </Tab>
+              </tabs>
+            </TabPane>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: rgb(102, 102, 102);">
+               <children>
+                  <Label layoutX="14.0" layoutY="16.0" text="IIITD  |   Admissions" textFill="WHITE">
+                     <font>
+                        <Font size="19.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #d9edf7;" GridPane.rowIndex="1">
+               <GridPane.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </GridPane.margin>
+               <children>
+                  <Label layoutX="6.0" layoutY="12.0" text="Submit button appears on successful completion of all forms fields." textFill="#31708f" />
+               </children>
+            </AnchorPane>
+         </children>
+      </GridPane>
+   </children>
+</AnchorPane>
